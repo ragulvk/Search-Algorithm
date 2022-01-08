@@ -18,29 +18,100 @@ To write a program to perform linear search and binary search using python progr
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
 i)	#Use a linear search method to match the item in a list.
-```
+~~~ python
+''' 
+Program for linear search method to match the item in a list
+Developed by: RAGUL.VK
+RegisterNumber: 21003061
+'''
+def linearsearch(array, n, k):
+
+    for i in range(0, n):
+        if (array [i] == k):
+            return i
+    return -1
+
+array = eval(input())
+k =  eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array, n, k)
+if(result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ", result)
 
 
 
-```
+~~~
 ii)	# Find the element in a list using Binary Search(Iterative Method).
-```
+~~~ python
+''' 
+Program to find the element in a list using Binary Search(Iterative Method)..
+Developed by: RAGUL.VK
+RegisterNumber: 21003061
+'''
+def linearsearch(array, n, k):
+
+    for i in range(0, n):
+        if (array [i] == k):
+            return i
+    return -1
+
+array = eval(input())
+k =  eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array, n, k)
+if(result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ", result)
 
 
 
 
 
-```
+
+~~~
 iii)	# Find the element in a list using Binary Search (recursive Method).
-```
+~~~ python
+''' 
+Program to find the element in a list using Binary Search (recursive Method).
+Developed by: RAGUL.VK
+RegisterNumber: 21003061
+'''
+def linearsearch(array, n, k):
+
+    for i in range(0, n):
+        if (array [i] == k):
+            return i
+    return -1
+
+array = eval(input())
+k =  eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array, n, k)
+if(result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ", result)
 
 
 
 
-
-```
+~~~
 ## Sample Input and Output
-
+![output](b1.png)
+![output](b2.png)
+![output](b3.png)
 
 
 
