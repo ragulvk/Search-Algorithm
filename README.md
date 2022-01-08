@@ -94,7 +94,7 @@ def linearsearch(array, n, k):
 
 array = eval(input())
 k =  eval(input())
-n = len(array)
+n = len(array)c
 array.sort()
 result = linearsearch(array, n, k)
 if(result == -1):
